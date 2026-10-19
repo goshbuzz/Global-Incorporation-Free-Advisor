@@ -29,6 +29,8 @@ import {
   BookOpen,
   Home
 } from 'lucide-react';
+import AdBanner, { LeaderboardAd, VerticalAd } from './ads/AdBanner';
+import SponsoredOffer from './ads/SponsoredOffer';
 
 export interface AdvisorViewProps {
   onBack: () => void;
@@ -252,6 +254,11 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
             </div>
           </div>
         </section>
+
+        {/* Advertisement — responsive leaderboard, persistent across tabs */}
+        <div className="mb-8 -mx-4 sm:mx-0">
+          <LeaderboardAd slotId="llc-top" />
+        </div>
 
         {/* TAB 1: ALL 50 STATES DIRECTORY */}
         {activeTab === 'states' && (
@@ -793,6 +800,8 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
                     </li>
                   </ul>
                 </div>
+
+                <VerticalAd slotId="llc-blueprint-rail" />
               </div>
 
             </div>
@@ -1013,6 +1022,8 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
                     4. Wait for processing, then fax Form SS-4 to the IRS to claim your EIN for $0 fee.
                   </p>
                 </div>
+
+                <VerticalAd slotId="llc-calculator-rail" />
               </div>
 
             </div>
@@ -1122,45 +1133,54 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
               </div>
 
               {/* Compliance checklist reminder (4 columns) */}
-              <div className="lg:col-span-4 h-fit bg-slate-900 text-slate-100 rounded-2xl p-5 border border-slate-800 space-y-5">
-                <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
-                  <Activity className="h-5.5 w-5.5 text-indigo-400" /> Annual Tax Calendar Checklist
+              <div className="lg:col-span-4 space-y-6">
+                <div className="h-fit bg-slate-900 text-slate-100 rounded-2xl p-5 border border-slate-800 space-y-5">
+                  <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
+                    <Activity className="h-5.5 w-5.5 text-indigo-400" /> Annual Tax Calendar Checklist
+                  </div>
+
+                  <div className="space-y-4">
+                    <div className="border-l-2 border-indigo-500 pl-3">
+                      <span className="text-[10px] text-indigo-400 font-extrabold block uppercase">BY MARCH 15</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Form 1065 Partnership Return</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Applicable if your US LLC has two or more members.</span>
+                    </div>
+
+                    <div className="border-l-2 border-rose-500 pl-3">
+                      <span className="text-[10px] text-rose-400 font-extrabold block uppercase">BY APRIL 15 (MANDATORY)</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Form 5472 + Pro Forma Form 1120</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Filing window for single-member LLC owners. Essential informational return of transitions.</span>
+                    </div>
+
+                    <div className="border-l-2 border-indigo-500 pl-3">
+                      <span className="text-[10px] text-indigo-400 font-extrabold block uppercase">BY APRIL 15</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Form 1040-NR Nonresident Return</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">If your LLC operates physical sales channels (ETBUS) in the US.</span>
+                    </div>
+
+                    <div className="border-l-2 border-emerald-500 pl-3">
+                      <span className="text-[10px] text-emerald-400 font-extrabold block uppercase">ANNIVERSARY MONTHS</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Annual Report / Franchise filings</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Wyoming takes $60, Delaware takes $300 minimum. Keep good state standing.</span>
+                    </div>
+                  </div>
+
+                  <div className="border-t border-slate-800 pt-4 text-[11px] leading-relaxed text-slate-400">
+                    ⚠️ <strong>Disclaimer:</strong> This guide provides educational compliance frameworks. Seek advice from an IRS enrolled agent or CPA for individual filing scenarios.
+                  </div>
                 </div>
 
-                <div className="space-y-4">
-                  <div className="border-l-2 border-indigo-500 pl-3">
-                    <span className="text-[10px] text-indigo-400 font-extrabold block uppercase">BY MARCH 15</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Form 1065 Partnership Return</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Applicable if your US LLC has two or more members.</span>
-                  </div>
-
-                  <div className="border-l-2 border-rose-500 pl-3">
-                    <span className="text-[10px] text-rose-400 font-extrabold block uppercase">BY APRIL 15 (MANDATORY)</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Form 5472 + Pro Forma Form 1120</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Filing window for single-member LLC owners. Essential informational return of transitions.</span>
-                  </div>
-
-                  <div className="border-l-2 border-indigo-500 pl-3">
-                    <span className="text-[10px] text-indigo-400 font-extrabold block uppercase">BY APRIL 15</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Form 1040-NR Nonresident Return</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">If your LLC operates physical sales channels (ETBUS) in the US.</span>
-                  </div>
-
-                  <div className="border-l-2 border-emerald-500 pl-3">
-                    <span className="text-[10px] text-emerald-400 font-extrabold block uppercase">ANNIVERSARY MONTHS</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Annual Report / Franchise filings</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Wyoming takes $60, Delaware takes $300 minimum. Keep good state standing.</span>
-                  </div>
-                </div>
-
-                <div className="border-t border-slate-800 pt-4 text-[11px] leading-relaxed text-slate-400">
-                  ⚠️ <strong>Disclaimer:</strong> This guide provides educational compliance frameworks. Seek advice from an IRS enrolled agent or CPA for individual filing scenarios.
-                </div>
+                <VerticalAd slotId="llc-compliance-rail" />
               </div>
 
             </div>
           </div>
         )}
+
+        {/* Advertisement — end of the active tab */}
+        <div className="mt-10 -mx-4 sm:mx-0">
+          <AdBanner size="300x250" slotId="llc-content" />
+        </div>
 
         {/* COMPREHENSIVE NON-RESIDENT FAQ HUB */}
         <section className="mt-12 bg-white rounded-3xl border border-slate-100 p-8 shadow-xs">
@@ -1235,6 +1255,7 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
           </div>
         </section>
 
+        <SponsoredOffer className="mt-8" />
       </main>
 
       {/* Elegant minimalist Footer */}
@@ -1260,6 +1281,13 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
           <div className="text-slate-500 text-center md:text-right">
             <p>© {new Date().getFullYear()} Hand-formed Guidance Repository.</p>
             <p className="text-[10px] text-slate-600 mt-1">No automated agent commissions charged.</p>
+            <p className="text-[10px] text-slate-600 mt-1">
+              Ads served by{' '}
+              <a href="https://adsterra.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">
+                Adsterra
+              </a>
+              . Sponsored links are labelled.
+            </p>
           </div>
         </div>
       </footer>

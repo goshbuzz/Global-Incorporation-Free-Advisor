@@ -35,6 +35,8 @@ import {
   Percent,
   CalendarClock
 } from 'lucide-react';
+import AdBanner, { LeaderboardAd, VerticalAd } from './ads/AdBanner';
+import SponsoredOffer from './ads/SponsoredOffer';
 
 export interface AdvisorViewProps {
   onBack: () => void;
@@ -236,6 +238,11 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
             </div>
           </div>
         </section>
+
+        {/* Advertisement — responsive leaderboard, persistent across tabs */}
+        <div className="mb-8 -mx-4 sm:mx-0">
+          <LeaderboardAd slotId="ltd-top" />
+        </div>
 
         {/* TAB 1: UK STRUCTURE & FEE DATABASE */}
         {activeTab === 'structures' && (
@@ -924,6 +931,8 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
                     </li>
                   </ul>
                 </div>
+
+                <VerticalAd slotId="ltd-blueprint-rail" />
               </div>
             </div>
           </div>
@@ -1183,6 +1192,8 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
                     4. Register for Corporation Tax within 3 months of trading using the UTR letter HMRC posts you for free.
                   </p>
                 </div>
+
+                <VerticalAd slotId="ltd-calculator-rail" />
               </div>
             </div>
           </div>
@@ -1419,51 +1430,60 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
               </div>
 
               {/* Compliance calendar sidebar (4 columns) */}
-              <div className="lg:col-span-4 h-fit bg-slate-900 text-slate-100 rounded-2xl p-5 border border-slate-800 space-y-5">
-                <div className="flex items-center gap-2 text-blue-400 font-bold text-xs uppercase tracking-wider">
-                  <CalendarClock className="h-5.5 w-5.5 text-blue-400" /> Annual UK Filing Calendar
+              <div className="lg:col-span-4 space-y-6">
+                <div className="h-fit bg-slate-900 text-slate-100 rounded-2xl p-5 border border-slate-800 space-y-5">
+                  <div className="flex items-center gap-2 text-blue-400 font-bold text-xs uppercase tracking-wider">
+                    <CalendarClock className="h-5.5 w-5.5 text-blue-400" /> Annual UK Filing Calendar
+                  </div>
+
+                  <div className="space-y-4">
+                    <div className="border-l-2 border-emerald-500 pl-3">
+                      <span className="text-[10px] text-emerald-400 font-extrabold block uppercase">WITHIN 3 MONTHS OF TRADING</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Register for Corporation Tax</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Using the UTR HMRC posts to your registered office (~14 days after formation).</span>
+                    </div>
+
+                    <div className="border-l-2 border-blue-500 pl-3">
+                      <span className="text-[10px] text-blue-400 font-extrabold block uppercase">EVERY 12 MONTHS + 14 DAYS</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Confirmation statement CS01 (£50 digital)</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Must include verified personal codes for all directors. Extra CS01s in the same payment year are free.</span>
+                    </div>
+
+                    <div className="border-l-2 border-rose-500 pl-3">
+                      <span className="text-[10px] text-rose-400 font-extrabold block uppercase">FYE + 9 MONTHS(1 DAY)</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">Annual accounts + pay Corporation Tax</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Accounts due at Companies House; CT payment due to HMRC 9 months and 1 day after the period.</span>
+                    </div>
+
+                    <div className="border-l-2 border-indigo-400 pl-3">
+                      <span className="text-[10px] text-indigo-300 font-extrabold block uppercase">FYE + 12 MONTHS</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">CT600 Company Tax Return</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Filed via commercial software (joint free portal closed 31 Mar 2026).</span>
+                    </div>
+
+                    <div className="border-l-2 border-amber-500 pl-3">
+                      <span className="text-[10px] text-amber-400 font-extrabold block uppercase">ROLLING 12-MONTH VIEW</span>
+                      <span className="font-bold text-xs block text-white mt-0.5">VAT registration at £{UK_VAT.registrationThreshold.toLocaleString()}</span>
+                      <span className="text-[11px] text-slate-400 block mt-1">Register within 30 days of crossing; deregister below £{UK_VAT.deregistrationThreshold.toLocaleString()}.</span>
+                    </div>
+                  </div>
+
+                  <div className="border-t border-slate-800 pt-4 text-[11px] leading-relaxed text-slate-400">
+                    ⚠️ <strong>Disclaimer:</strong> Educational compliance frameworks only. UK company and tax law — consult an ICAEW/ACCA accountant or tax
+                    adviser for your individual filing scenario.
+                  </div>
                 </div>
 
-                <div className="space-y-4">
-                  <div className="border-l-2 border-emerald-500 pl-3">
-                    <span className="text-[10px] text-emerald-400 font-extrabold block uppercase">WITHIN 3 MONTHS OF TRADING</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Register for Corporation Tax</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Using the UTR HMRC posts to your registered office (~14 days after formation).</span>
-                  </div>
-
-                  <div className="border-l-2 border-blue-500 pl-3">
-                    <span className="text-[10px] text-blue-400 font-extrabold block uppercase">EVERY 12 MONTHS + 14 DAYS</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Confirmation statement CS01 (£50 digital)</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Must include verified personal codes for all directors. Extra CS01s in the same payment year are free.</span>
-                  </div>
-
-                  <div className="border-l-2 border-rose-500 pl-3">
-                    <span className="text-[10px] text-rose-400 font-extrabold block uppercase">FYE + 9 MONTHS(1 DAY)</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">Annual accounts + pay Corporation Tax</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Accounts due at Companies House; CT payment due to HMRC 9 months and 1 day after the period.</span>
-                  </div>
-
-                  <div className="border-l-2 border-indigo-400 pl-3">
-                    <span className="text-[10px] text-indigo-300 font-extrabold block uppercase">FYE + 12 MONTHS</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">CT600 Company Tax Return</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Filed via commercial software (joint free portal closed 31 Mar 2026).</span>
-                  </div>
-
-                  <div className="border-l-2 border-amber-500 pl-3">
-                    <span className="text-[10px] text-amber-400 font-extrabold block uppercase">ROLLING 12-MONTH VIEW</span>
-                    <span className="font-bold text-xs block text-white mt-0.5">VAT registration at £{UK_VAT.registrationThreshold.toLocaleString()}</span>
-                    <span className="text-[11px] text-slate-400 block mt-1">Register within 30 days of crossing; deregister below £{UK_VAT.deregistrationThreshold.toLocaleString()}.</span>
-                  </div>
-                </div>
-
-                <div className="border-t border-slate-800 pt-4 text-[11px] leading-relaxed text-slate-400">
-                  ⚠️ <strong>Disclaimer:</strong> Educational compliance frameworks only. UK company and tax law — consult an ICAEW/ACCA accountant or tax
-                  adviser for your individual filing scenario.
-                </div>
+                <VerticalAd slotId="ltd-compliance-rail" />
               </div>
             </div>
           </div>
         )}
+
+        {/* Advertisement — end of the active tab */}
+        <div className="mt-10 -mx-4 sm:mx-0">
+          <AdBanner size="300x250" slotId="ltd-content" />
+        </div>
 
         {/* NON-RESIDENT FAQ HUB */}
         <section className="mt-12 bg-white rounded-3xl border border-slate-100 p-8 shadow-xs">
@@ -1531,6 +1551,8 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
             </div>
           </div>
         </section>
+
+        <SponsoredOffer className="mt-8" />
       </main>
 
       {/* Footer */}
@@ -1558,6 +1580,13 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
           <div className="text-slate-500 text-center md:text-right">
             <p>© {new Date().getFullYear()} Hand-formed Guidance Repository.</p>
             <p className="text-[10px] text-slate-600 mt-1">{DATA_VERIFICATION.checkedOn} — all government fees verified against GOV.UK publications.</p>
+            <p className="text-[10px] text-slate-600 mt-1">
+              Ads served by{' '}
+              <a href="https://adsterra.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">
+                Adsterra
+              </a>
+              . Sponsored links are labelled.
+            </p>
           </div>
         </div>
       </footer>

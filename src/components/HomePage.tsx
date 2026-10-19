@@ -1,4 +1,6 @@
 import { Scale, Landmark, ArrowRight, CheckCircle, Shield, Globe, DollarSign, FileText, AlertCircle, MapPin, Info } from 'lucide-react';
+import AdBanner, { LeaderboardAd } from './ads/AdBanner';
+import SponsoredOffer from './ads/SponsoredOffer';
 
 export interface HomePageProps {
   onSelect: (target: 'llc' | 'ltd') => void;
@@ -49,6 +51,11 @@ export default function HomePage({ onSelect }: HomePageProps) {
             no agent commissions, no upsells.
           </p>
         </section>
+
+        {/* Advertisement — responsive leaderboard above the fold */}
+        <div className="mt-8 -mx-4 sm:mx-0">
+          <LeaderboardAd slotId="home-top" />
+        </div>
 
         {/* The two big choice cards */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -134,6 +141,11 @@ export default function HomePage({ onSelect }: HomePageProps) {
             </div>
           </button>
         </section>
+
+        {/* Advertisement — in-content rectangle */}
+        <div className="mt-10 -mx-4 sm:mx-0">
+          <AdBanner size="300x250" slotId="home-mid" />
+        </div>
 
         {/* Side by side comparison — verified figures */}
         <section className="mt-12 bg-white rounded-3xl border border-slate-100 shadow-xs overflow-hidden">
@@ -235,6 +247,8 @@ export default function HomePage({ onSelect }: HomePageProps) {
             you can self-file with confidence — and we always recommend a licensed CPA/accountant for the final filings.
           </p>
         </section>
+
+        <SponsoredOffer className="mt-8" />
       </main>
 
       {/* Footer */}
@@ -260,6 +274,13 @@ export default function HomePage({ onSelect }: HomePageProps) {
             <p className="text-[10px] text-slate-600 mt-1">
               <Globe className="inline h-3 w-3 mr-1 -mt-0.5" />
               Educational tool — always confirm figures on the official government pages before paying.
+            </p>
+            <p className="text-[10px] text-slate-600 mt-1">
+              Ads served by{' '}
+              <a href="https://adsterra.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">
+                Adsterra
+              </a>
+              . Sponsored links are labelled.
             </p>
           </div>
         </div>
