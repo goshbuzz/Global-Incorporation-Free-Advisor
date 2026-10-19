@@ -256,7 +256,7 @@ export default function LLCApp({ onBack, onSwitch }: AdvisorViewProps) {
         </section>
 
         {/* Advertisement — responsive leaderboard, persistent across tabs */}
-        <div className="mb-8">
+        <div className="mb-8 -mx-4 sm:mx-0">
           <LeaderboardAd slotId="llc-top" />
         </div>
 

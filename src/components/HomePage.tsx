@@ -53,7 +53,7 @@ export default function HomePage({ onSelect }: HomePageProps) {
         </section>
 
         {/* Advertisement — responsive leaderboard above the fold */}
-        <div className="mt-8">
+        <div className="mt-8 -mx-4 sm:mx-0">
           <LeaderboardAd slotId="home-top" />
         </div>
 
