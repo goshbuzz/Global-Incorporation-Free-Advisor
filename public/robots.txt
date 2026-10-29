@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://llcandltdfreeadvisor.goshbuzz.com/sitemap.xml
+Sitemap: https://globalincorporationfreeadvisor.goshbuzz.com/sitemap.xml
