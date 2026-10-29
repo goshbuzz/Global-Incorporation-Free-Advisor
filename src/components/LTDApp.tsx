@@ -35,6 +35,7 @@ import {
   Percent,
   CalendarClock
 } from 'lucide-react';
+import { BRAND } from '../brand';
 import AdBanner, { LeaderboardAd, VerticalAd } from './ads/AdBanner';
 import SponsoredOffer from './ads/SponsoredOffer';
 
@@ -146,9 +147,11 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
               </div>
               <div>
                 <h1 className="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-1.5">
-                  UK LTD <span className="text-blue-600">Tax & Fee Advisor</span>
+                  {BRAND.name} <span className="text-blue-600">UK LTD</span>
                 </h1>
-                <p className="text-xs text-slate-500 font-medium">Self-Filing System • Companies House & HMRC Guidelines</p>
+                <p className="text-xs text-slate-500 font-medium">
+                  Free self-filing system • Companies House &amp; HMRC guidelines
+                </p>
               </div>
             </div>
 
@@ -1560,7 +1563,7 @@ export default function LTDApp({ onBack, onSwitch }: AdvisorViewProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-xs font-semibold">
           <div className="text-center md:text-left">
             <h4 className="text-sm font-extrabold text-white tracking-tight flex items-center justify-center md:justify-start gap-1.5 mb-1">
-              <Scale className="h-4.5 w-4.5 text-blue-500" /> UK LTD TAX &amp; FEE ADVISOR
+              <Scale className="h-4.5 w-4.5 text-blue-500" /> {BRAND.name.toUpperCase()} · UK LTD ADVISOR
             </h4>
             <p className="text-slate-500 font-bold text-[10px] tracking-wider uppercase">Self-Formed Non-Resident Compliance Portal</p>
           </div>
