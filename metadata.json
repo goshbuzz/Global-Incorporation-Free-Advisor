@@ -1,6 +1,6 @@
 {
-  "name": "US LLC & UK LTD Free Advisor",
-  "description": "Home page with US LLC and UK LTD launcher buttons: 50-state LLC fee database with ITIN/Form 5472 guidance, plus a UK Companies House structure-and-fee database (digital £100 incorporation, £50 confirmation statement), Corporation Tax & VAT rules, budget simulators and compliance calendars — all figures verified against government sources.",
+  "name": "Global Incorporation & Business Licensing Free Advisor",
+  "description": "Four free advisors for cross-border founders: a 50-state US LLC fee database with ITIN/Form 5472 guidance, a UK Companies House fee-and-structure advisor, a 25-country global formation database (UAE, Saudi Arabia, Qatar, Pakistan, India, China, Russia, Turkey, Canada, Singapore, Hong Kong, Malaysia, Indonesia, Nigeria, Kenya, South Africa, Germany, Ireland, Estonia, Cyprus, Panama, BVI, Australia) with declared registry fees and per-country processes, and a licensing explorer that checks whether a non-resident alien, foreign company or locally owned entity can legally hold regulated licences such as IRS acceptance agent, customs broker, freight broker, real estate agent, insurance producer, mortgage originator, money transmitter, UK ACSP, FCA payment institution, Singapore RFA, Hong Kong TCSP, RERA broker, RCIC or MARA agent.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }
