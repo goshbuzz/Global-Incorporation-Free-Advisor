@@ -35,6 +35,7 @@ import {
   type Verdict,
   type LicenceCategory
 } from '../data/professionsData';
+import { BRAND } from '../brand';
 import AdBanner, { LeaderboardAd, VerticalAd } from './ads/AdBanner';
 import SponsoredOffer from './ads/SponsoredOffer';
 
@@ -124,7 +125,7 @@ export default function LicensingApp({ onBack, onSwitch }: LicensingAppProps) {
               </div>
               <div>
                 <h1 className="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-1.5">
-                  Business <span className="text-amber-600">Licensing Explorer</span>
+                  {BRAND.name} <span className="text-amber-600">Licensing</span>
                 </h1>
                 <p className="text-xs text-slate-500 font-medium">
                   What can you legally run as a non-resident, alien or foreign company?

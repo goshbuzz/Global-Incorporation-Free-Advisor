@@ -37,6 +37,7 @@ import {
   type Region,
   type NonResidentStatus
 } from '../data/globalData';
+import { BRAND } from '../brand';
 import AdBanner, { LeaderboardAd, VerticalAd } from './ads/AdBanner';
 import SponsoredOffer from './ads/SponsoredOffer';
 
@@ -167,7 +168,7 @@ export default function GlobalApp({ onBack, onSwitch }: GlobalAppProps) {
               </div>
               <div>
                 <h1 className="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-1.5">
-                  Global Company <span className="text-emerald-600">Formation Advisor</span>
+                  {BRAND.name} <span className="text-emerald-600">Countries</span>
                 </h1>
                 <p className="text-xs text-slate-500 font-medium">
                   25 countries · declared registry fees · foreign-ownership rules

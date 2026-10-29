@@ -1,15 +1,24 @@
-# Global Incorporation & Business Licensing Free Advisor
+# Global Incorporation Free Advisor
 
-A free, self-filing advisor for global / non-resident founders, built from the
-[US LLC Tax & Fee Advisor](https://github.com/Solatjamil/US-LLC-Tax-Fee-Advisor) and extended with:
+**Global Incorporation** is the product brand for this site. Everything the visitor sees — the
+document title, the header on every page, the footer, structured data, the package name and this
+README — carries that one name.
+
+A free, self-filing advisor for global / non-resident founders. It started life as the
+[US LLC Tax & Fee Advisor](https://github.com/Solatjamil/US-LLC-Tax-Fee-Advisor) (previously published
+as *US LLC & UK LTD Free Advisor*) and was extended with:
 
 1. a complete **UK LTD (Companies House + HMRC)** counterpart,
 2. a **25-country global formation database** with declared registry fees and step-by-step processes,
 3. a **business licensing explorer** that answers "can a non-resident alien actually run this business?"
 
+> **Branding rule:** the public name lives in one place — [`src/brand.ts`](src/brand.ts). Every page
+> header and footer reads `BRAND.name` / `BRAND.product` from it, and `index.html`, `metadata.json`,
+> `package.json` and this README carry the same wording. Change the constant, not the components.
+
 The **home page offers four launcher cards**, each mapped to a hash route:
 
-| Route | Advisor | Registry | What it answers |
+| Route | Section of Global Incorporation | Registry | What it answers |
 |---|---|---|---|
 | `#llc` | 🇺🇸 **US LLC** | Secretary of State (per state) + IRS | 50-state fee database, non-resident state-tax treatment, W-7 ITIN, SS-4 EIN, Form 5472 |
 | `#ltd` | 🇬🇧 **UK LTD** | Companies House + HMRC | Structures, £100 digital filing, identity verification, CS01, CT600, Corporation Tax, VAT |
@@ -176,13 +185,14 @@ labelled, and the direct link is marked `rel="sponsored"`.
 
 ```
 src/
+  brand.ts                    # brand name/tagline/publisher — the single source of truth
   App.tsx                     # hash router: home | llc | ltd | global | license
   components/
     HomePage.tsx              # four launcher cards + coverage comparison
-    LLCApp.tsx                # 50-state US LLC advisor
-    LTDApp.tsx                # UK Companies House advisor
-    GlobalApp.tsx             # 25-country formation advisor (4 tabs)
-    LicensingApp.tsx          # licensing eligibility explorer (3 tabs)
+    LLCApp.tsx                # Global Incorporation · US LLC
+    LTDApp.tsx                # Global Incorporation · UK LTD
+    GlobalApp.tsx             # Global Incorporation · Countries (25 jurisdictions, 4 tabs)
+    LicensingApp.tsx          # Global Incorporation · Licensing (3 tabs)
     ads/                      # Adsterra banner, leaderboard, sidebar, sponsored card
   data/
     statesData.ts             # 50 US states: fees + non-resident tax status

@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import AdBanner, { LeaderboardAd } from './ads/AdBanner';
 import SponsoredOffer from './ads/SponsoredOffer';
+import { BRAND } from '../brand';
 import { COUNTRIES, cheapestUsd } from '../data/globalData';
 import { LICENSED_BUSINESSES } from '../data/professionsData';
 
@@ -62,10 +63,10 @@ export default function HomePage({ onSelect }: HomePageProps) {
               </div>
               <div>
                 <h1 className="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-1.5">
-                  Global Incorporation <span className="text-indigo-600">Free Advisor</span>
+                  {BRAND.name} <span className="text-indigo-600">Free Advisor</span>
                 </h1>
                 <p className="text-xs text-slate-500 font-medium">
-                  Company formation, non-resident tax and licensing — in one place
+                  {BRAND.tagline}
                 </p>
               </div>
             </div>
@@ -498,7 +499,7 @@ export default function HomePage({ onSelect }: HomePageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-xs font-semibold">
           <div className="text-center md:text-left">
             <h4 className="text-sm font-extrabold text-white tracking-tight flex items-center justify-center md:justify-start gap-1.5 mb-1">
-              <Scale className="h-4.5 w-4.5 text-indigo-500" /> GLOBAL INCORPORATION FREE ADVISOR
+              <Scale className="h-4.5 w-4.5 text-indigo-500" /> {BRAND.product.toUpperCase()}
             </h4>
             <p className="text-slate-500 font-bold text-[10px] tracking-wider uppercase">
               Self-Formed Compliance Portal • US + UK + {COUNTRIES.length} countries + licensing
