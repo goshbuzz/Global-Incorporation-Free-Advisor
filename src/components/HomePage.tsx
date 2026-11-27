@@ -411,6 +411,12 @@ export default function HomePage({ onSelect }: HomePageProps) {
           </div>
         </section>
 
+        {/* Advertisement — second in-content rectangle, deep-scrolled placement for
+            the lower half of this page (viewable, not adjacent to a CTA). */}
+        <div className="mt-10 -mx-4 sm:mx-0">
+          <AdBanner size="300x250" slotId="home-deep" />
+        </div>
+
         {/* Country flags strip */}
         <section className="mt-8 bg-white rounded-2xl border border-slate-100 p-6">
           <div className="flex flex-wrap items-center justify-between gap-3">

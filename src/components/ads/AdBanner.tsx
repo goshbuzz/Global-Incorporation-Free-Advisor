@@ -66,13 +66,17 @@ export default function AdBanner({ size, slotId, className = '', lazy = true }: 
       id={`ad-slot-${slotId}`}
       data-ad-slot={slotId}
       data-ad-format={size}
+      data-ad-zone={unit.key}
       className={`flex w-full flex-col items-center ${className}`}
     >
       <span className="mb-1.5 select-none text-[9px] font-bold uppercase tracking-[0.18em] text-slate-400">
         Advertisement
       </span>
       <div
-        style={{ width: unit.width, height: unit.height }}
+        // `maxWidth` guards against a 300px creative overflowing a 320px phone
+        // (the reserved box clips instead of breaking the page layout), and the
+        // fixed height keeps the slot CLS-free before the creative arrives.
+        style={{ width: unit.width, maxWidth: '100%', height: unit.height }}
         className="relative shrink-0 overflow-hidden rounded-lg border border-slate-200/90 bg-slate-50"
       >
         {visible ? (

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Global Incorporation Free Advisor — company formation, non-resident tax and licensing in one place">
+  <defs>
+    <linearGradient id="giBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220" />
+      <stop offset="55%" stop-color="#111a2e" />
+      <stop offset="100%" stop-color="#052e2b" />
+    </linearGradient>
+    <radialGradient id="giGlow" cx="0.82" cy="0.1" r="0.72">
+      <stop offset="0%" stop-color="#4338ca" stop-opacity=".55" />
+      <stop offset="100%" stop-color="#4338ca" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="giGlobeO" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="55%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#giBg)" />
+  <rect width="1200" height="630" fill="url(#giGlow)" />
+
+  <g transform="translate(72 56) scale(0.2109375)">
+    <rect width="512" height="512" rx="112" fill="#111c33" stroke="#1e293b" stroke-width="8" />
+    <circle cx="256" cy="256" r="132" fill="none" stroke="url(#giGlobeO)" stroke-width="34" />
+    <ellipse cx="256" cy="256" rx="61" ry="132" fill="none" stroke="url(#giGlobeO)" stroke-width="26" />
+    <path d="M124 256h264" stroke="url(#giGlobeO)" stroke-width="26" stroke-linecap="round" />
+    <path d="M152 180h208M152 332h208" stroke="url(#giGlobeO)" stroke-width="20" stroke-linecap="round" opacity=".65" />
+  </g>
+  <text x="208" y="104" font-family="DejaVu Sans" font-size="30" font-weight="bold" fill="#a5b4fc" letter-spacing="4">GLOBAL INCORPORATION</text>
+  <text x="208" y="140" font-family="DejaVu Sans" font-size="22" fill="#64748b" letter-spacing="3">FREE ADVISOR · COMPANY FORMATION &amp; LICENSING</text>
+
+  <text x="72" y="268" font-family="DejaVu Sans" font-size="58" font-weight="bold" fill="#f8fafc" letter-spacing="-1">Form the company yourself.</text>
+  <text x="72" y="336" font-family="DejaVu Sans" font-size="58" font-weight="bold" fill="#818cf8" letter-spacing="-1">Then check what you may run.</text>
+
+  <text x="72" y="404" font-family="DejaVu Sans" font-size="26" fill="#94a3b8">Declared government fees, filing calendars and non-resident tax</text>
+  <text x="72" y="440" font-family="DejaVu Sans" font-size="26" fill="#94a3b8">treatment for all 50 US states, Companies House and 24 more</text>
+  <text x="72" y="476" font-family="DejaVu Sans" font-size="26" fill="#94a3b8">jurisdictions — plus a licence-eligibility check for regulated trades.</text>
+
+  <g font-family="DejaVu Sans" font-size="24" font-weight="bold">
+    <rect x="72" y="512" width="254" height="56" rx="28" fill="#1e293b" stroke="#334155" stroke-width="2" />
+    <text x="104" y="548" fill="#c7d2fe">50 US states</text>
+    <rect x="346" y="512" width="254" height="56" rx="28" fill="#1e293b" stroke="#334155" stroke-width="2" />
+    <text x="378" y="548" fill="#a7f3d0">25 countries</text>
+    <rect x="620" y="512" width="356" height="56" rx="28" fill="#1e293b" stroke="#334155" stroke-width="2" />
+    <text x="652" y="548" fill="#fde68a">Licence eligibility</text>
+  </g>
+  <text x="72" y="610" font-family="DejaVu Sans" font-size="22" fill="#475569">globalincorporationfreeadvisor.goshbuzz.com</text>
+</svg>

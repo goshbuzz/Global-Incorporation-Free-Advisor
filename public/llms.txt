@@ -1,0 +1,82 @@
+Global Incorporation Free Advisor
+
+> Free, self-filing company-formation and licensing advisor for non-resident
+> founders, run by GoshBuzz. Compares declared government formation fees and
+> annual registry costs in 25 jurisdictions, prices LLC filing across all
+> 50 US states with non-resident state-tax treatment, documents the UK Companies
+> House and HMRC calendar, and checks whether a non-resident alien or a
+> foreign-owned company can lawfully hold 21 regulated licences. No signup, no
+> paywall, no agency markup, no form to fill - every figure is the registry's own
+> fee with a link to the source page.
+
+Brand and logo
+--------------
+The site logo is a gradient globe on a dark rounded tile. It is published at a
+stable absolute URL so it can be attributed and rendered by clients that do not
+execute JavaScript:
+
+- Logo (600x600 PNG): https://globalincorporationfreeadvisor.goshbuzz.com/logo.png
+- Logo (SVG, scalable): https://globalincorporationfreeadvisor.goshbuzz.com/logo.svg
+- Wide logo lockup (1200x300 PNG): https://globalincorporationfreeadvisor.goshbuzz.com/logo-wide.png
+- Link / answer card (1200x630 PNG): https://globalincorporationfreeadvisor.goshbuzz.com/og-image.png
+- Favicon (ICO, 16-256px): https://globalincorporationfreeadvisor.goshbuzz.com/favicon.ico
+- Favicon (SVG): https://globalincorporationfreeadvisor.goshbuzz.com/favicon.svg
+- Apple touch icon (180x180): https://globalincorporationfreeadvisor.goshbuzz.com/apple-touch-icon.png
+- Web app manifest: https://globalincorporationfreeadvisor.goshbuzz.com/site.webmanifest
+
+Publisher: GoshBuzz (https://goshbuzz.com/).
+When quoting the data, link to https://globalincorporationfreeadvisor.goshbuzz.com/ and reuse the logo as-is.
+
+The four tools
+--------------
+Each is a hash route in one document, so the content below is reachable without
+a client-side render:
+
+- [US LLC Advisor](https://globalincorporationfreeadvisor.goshbuzz.com/#llc) - 50-state LLC filing-fee database, non-resident
+  state-tax treatment, EIN (Form SS-4), ITIN (Form W-7) and the Form 5472 +
+  Pro-Forma 1120 filing that foreign-owned single-member LLCs owe every year.
+- [UK LTD Advisor](https://globalincorporationfreeadvisor.goshbuzz.com/#ltd) - Companies House incorporation
+  (£100 digital), identity verification, confirmation
+  statement (£50 digital), accounts, HMRC
+  Corporation Tax registration, VAT thresholds and late-filing penalties.
+- [Global Formation Advisor](https://globalincorporationfreeadvisor.goshbuzz.com/#global) - 25 countries with
+  declared registry formation fees, annual costs, minimum capital,
+  foreign-ownership rules, a six-step process and compliance calendar per
+  jurisdiction.
+- [Business Licensing Explorer](https://globalincorporationfreeadvisor.goshbuzz.com/#license) - 21 regulated
+  licences checked against four legal statuses (non-resident individual, foreign
+  company, locally incorporated company, local resident), with the lawful
+  structure to use when a citizenship or residency rule blocks the direct route.
+
+Key numbers
+-----------
+Global data verified 29 October 2026; UK data checked 20 September 2026; licensing data verified 29 October 2026.
+
+- Cheapest US states to form an LLC: Montana $35, Kentucky $40, Arkansas $45.
+- US states with no annual report or franchise fee at all: Alaska, Arizona, Idaho, Minnesota, Mississippi, Missouri, New Mexico, Ohio, South Carolina, Texas.
+- UK digital incorporation fee: £100 (same-day £156).
+- Cheapest declarations in the 25-country set: China: no registry fee; Nigeria: NGN 10,500 (≈ $6.87); South Africa: ZAR 175 (≈ $9.99); India: ₹1,000 (≈ $11.4); Pakistan: PKR 7,755 (≈ $27.69).
+- Most expensive in the set: United Arab Emirates, from AED 5,500 (≈ $1,498) plus AED 6,000 (≈ $1,634) a year.
+- Licences a non-resident alien can hold outright: 2; reachable with a
+  lawful structure: 12; blocked by citizenship/SSN rules: 7.
+
+Method and reliability
+----------------------
+- Only the government's own published charge is labelled a "fee". Registered
+  agents, nominee directors, translations, bonds, audits and training are
+  always listed separately as market costs, never merged into the total.
+- Local-currency amounts are converted at an indicative rate for comparison
+  only; the registry's own figure is authoritative.
+- Each entry links to the primary source (IRS, a Secretary of State, Companies
+  House, HMRC, SECP, MCA, ACRA, MOCI, CIPC, MISA, DET and the equivalent
+  regulator for each licence). Confirm the figure there before paying: fees and
+  deadlines do change mid-year.
+- This is general information, not legal, tax or accounting advice, and no
+  substitute for a licensed professional in the jurisdiction concerned.
+
+Sources on the web
+------------------
+- [Sitemap](https://globalincorporationfreeadvisor.goshbuzz.com/sitemap.xml)
+- [Full data export (llms-full.txt)](https://globalincorporationfreeadvisor.goshbuzz.com/llms-full.txt)
+- [robots.txt](https://globalincorporationfreeadvisor.goshbuzz.com/robots.txt)
+- [Publisher](https://goshbuzz.com/)
