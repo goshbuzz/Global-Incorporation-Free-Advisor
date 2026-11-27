@@ -4,6 +4,7 @@ import LLCApp from './components/LLCApp';
 import LTDApp from './components/LTDApp';
 import GlobalApp from './components/GlobalApp';
 import LicensingApp from './components/LicensingApp';
+import AdsterraOverlays from './components/ads/AdsterraOverlays';
 
 export type AdvisorView = 'home' | 'llc' | 'ltd' | 'global' | 'license';
 
@@ -43,41 +44,25 @@ export default function App() {
     scrollTop();
   };
 
-  if (view === 'llc') {
-    return (
-      <LLCApp
-        onBack={goHome}
-        onSwitch={(target) => goTo(target)}
-      />
+  // The four advisors are hash routes inside one document, so the site-wide ad
+  // formats are mounted once above the view and survive every switch.
+  const screen =
+    view === 'llc' ? (
+      <LLCApp onBack={goHome} onSwitch={(target) => goTo(target)} />
+    ) : view === 'ltd' ? (
+      <LTDApp onBack={goHome} onSwitch={(target) => goTo(target)} />
+    ) : view === 'global' ? (
+      <GlobalApp onBack={goHome} onSwitch={(target) => goTo(target)} />
+    ) : view === 'license' ? (
+      <LicensingApp onBack={goHome} onSwitch={(target) => goTo(target)} />
+    ) : (
+      <HomePage onSelect={goTo} />
     );
-  }
 
-  if (view === 'ltd') {
-    return (
-      <LTDApp
-        onBack={goHome}
-        onSwitch={(target) => goTo(target)}
-      />
-    );
-  }
-
-  if (view === 'global') {
-    return (
-      <GlobalApp
-        onBack={goHome}
-        onSwitch={(target) => goTo(target)}
-      />
-    );
-  }
-
-  if (view === 'license') {
-    return (
-      <LicensingApp
-        onBack={goHome}
-        onSwitch={(target) => goTo(target)}
-      />
-    );
-  }
-
-  return <HomePage onSelect={goTo} />;
+  return (
+    <>
+      <AdsterraOverlays />
+      {screen}
+    </>
+  );
 }

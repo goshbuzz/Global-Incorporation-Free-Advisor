@@ -1,0 +1,177 @@
+Global Incorporation Free Advisor — full data export
+=========================================
+
+Global data verified 29 October 2026; UK data checked 20 September 2026; licensing data verified 29 October 2026. All amounts are the declared government fee in the local
+currency converted to indicative USD; the registry's own figure governs.
+Generated from the same dataset the site renders, so this file and the UI can
+never disagree.
+
+Canonical URL: https://globalincorporationfreeadvisor.goshbuzz.com/
+Logo: https://globalincorporationfreeadvisor.goshbuzz.com/logo.png (600x600), https://globalincorporationfreeadvisor.goshbuzz.com/logo-wide.png (1200x300 wide lockup)
+Summary for citation: https://globalincorporationfreeadvisor.goshbuzz.com/llms.txt
+
+1. US LLC — all 50 states
+-------------------------
+One-time Secretary of State filing fee, the recurring state charge, and how the
+state treats an owner who is neither a US resident nor a US citizen.
+
+State          | Filing fee | Annual / recurring                                | Non-resident treatment | Typical processing
+-------------- | ---------- | ------------------------------------------------- | ---------------------- | ------------------------------
+Montana        | $35        | $20 - Annual Report Fee                           | Conditionally Exempt   | 1-2 business days
+Kentucky       | $40        | $15 - Annual Report Fee                           | Conditionally Exempt   | 1-2 business days
+Arkansas       | $45        | $150 - Annual Franchise Tax                       | Conditionally Exempt   | 1-2 business days
+Arizona        | $50        | No Annual Report Fee                              | Conditionally Exempt   | 5-7 business days
+Colorado       | $50        | $10 - Annual Periodic Report                      | Conditionally Exempt   | Instant (Online)
+Hawaii         | $50        | $15 - Annual Report Fee                           | Conditionally Exempt   | 7-10 business days
+Iowa           | $50        | $45 - Biennial Report ($45/2 years)               | Conditionally Exempt   | 1-2 business days
+Michigan       | $50        | $25 - Annual Statement                            | Conditionally Exempt   | 3-5 business days
+Mississippi    | $50        | Annual Report (Free)                              | Conditionally Exempt   | Instant (Online)
+Missouri       | $50        | No Annual Report Fee                              | Conditionally Exempt   | Instant (Online)
+New Mexico     | $50        | No Annual Report Fee ($0 recurring)               | Fully Exempt           | 1-3 business days
+Utah           | $54        | $20 - Annual Renewal Fee                          | Conditionally Exempt   | 1-2 business days
+California     | $70        | $800 - Minimum Franchise Tax ($800/yr)            | High Compliance        | 5-10 business days
+Delaware       | $90        | $300 - Flat LLC Franchise Tax                     | Fully Exempt           | 10-15 business days (Standard)
+Indiana        | $95        | $30 - Biennial Business Entity Report             | Conditionally Exempt   | Instant (Online)
+Ohio           | $99        | No Annual Report Fee                              | Conditionally Exempt   | 3-5 business days
+Georgia        | $100       | $50 - Annual Registration                         | Conditionally Exempt   | 5-7 business days
+Idaho          | $100       | Annual Report (Free)                              | Conditionally Exempt   | 5-7 business days
+Louisiana      | $100       | $35 - Annual Report Fee                           | Conditionally Exempt   | 3-5 business days
+Maryland       | $100       | $300 - Annual Report & Personal Property return   | High Compliance        | 7-10 business days
+New Hampshire  | $100       | $100 - Annual Report Fee                          | Fully Exempt           | 5-7 business days
+Oklahoma       | $100       | $25 - Annual Certificate Fee                      | Conditionally Exempt   | 5-7 business days
+Oregon         | $100       | $100 - Annual Report Fee                          | Conditionally Exempt   | 5-7 business days
+Virginia       | $100       | $50 - Annual Registration Fee                     | Conditionally Exempt   | Instant (Online)
+West Virginia  | $100       | $25 - Annual Report Fee                           | Conditionally Exempt   | 1-2 business days
+Wyoming        | $100       | $60 - Annual Report License Tax                   | Fully Exempt           | 1-3 business days
+Nebraska       | $110       | $10 - Biennial Report ($10/2 years)               | Conditionally Exempt   | 2-3 business days
+South Carolina | $110       | No Annual Report Fee                              | Conditionally Exempt   | 2-3 business days
+Connecticut    | $120       | $80 - Annual Report                               | Conditionally Exempt   | 3-5 business days
+Florida        | $125       | $139 - Annual Report Fee                          | Fully Exempt           | 3-5 business days
+New Jersey     | $125       | $75 - Annual Report Fee                           | Conditionally Exempt   | 2-3 business days
+North Carolina | $125       | $202 - Annual Report (Online fee)                 | Conditionally Exempt   | 3-5 business days
+Pennsylvania   | $125       | $70 - Annual Report (As of 2025)                  | Conditionally Exempt   | 7-10 business days
+Vermont        | $125       | $35 - Annual Report Fee                           | Conditionally Exempt   | 2-3 business days
+Wisconsin      | $130       | $25 - Annual Report Fee                           | Conditionally Exempt   | Instant (Online)
+North Dakota   | $135       | $50 - Annual Report Fee                           | Conditionally Exempt   | 2-3 business days
+Illinois       | $150       | $75 - Annual Report                               | Conditionally Exempt   | Instant (Online)
+Rhode Island   | $150       | $400 - Annual Report & Minimum Tax (Form RI-1065) | High Compliance        | 3-5 business days
+South Dakota   | $150       | $50 - Annual Report Fee                           | Fully Exempt           | Instant (Online)
+Minnesota      | $155       | Annual Renewal (Free)                             | Conditionally Exempt   | Instant (Online)
+Kansas         | $160       | $110 - Biennial Report ($110/2 years)             | Conditionally Exempt   | Instant (Online)
+Maine          | $175       | $85 - Annual Report Fee                           | Conditionally Exempt   | 10-15 business days
+Alabama        | $200       | $100 - Business Privilege Tax (Min $100)          | High Compliance        | 3-5 business days
+New York       | $200       | $9 - Biennial Filing Fee (and print notices)      | Conditionally Exempt   | 10-15 business days
+Washington     | $200       | $60 - Annual Report Fee                           | Fully Exempt           | 2-3 business days
+Alaska         | $250       | Biennial Report (Free)                            | Fully Exempt           | 10-15 business days
+Tennessee      | $300       | $300 - Annual Report (Min $300, based on members) | High Compliance        | 3-5 business days
+Texas          | $300       | No Annual Report Fee (Under $2.47M revenue)       | Fully Exempt           | 3-5 business days
+Nevada         | $425       | $350 - Annual Fee (License + Member List)         | Fully Exempt           | 1-2 business days
+Massachusetts  | $500       | $500 - Annual Report ($500/yr)                    | High Compliance        | 3-4 business days
+
+Federal obligations for a foreign-owned single-member LLC: EIN without an SSN
+(Form SS-4), ITIN for the owner (Form W-7), Form 5472 plus a Pro-Forma 1120
+filed every year, and US-source income taxed on a return only when a US trade or
+business or effectively connected income exists.
+
+2. UK LTD — Companies House and HMRC
+------------------------------------
+
+Transaction                                    | Channel                 | Declared fee
+---------------------------------------------- | ----------------------- | ------------
+Incorporation (LTD / LLP)                      | Digital                 | £100
+Incorporation (same day)                       | Digital (software only) | £156
+Incorporation (LTD / LLP)                      | Paper                   | £124
+Confirmation statement (CS01)                  | Digital                 | £50
+Confirmation statement (CS01)                  | Paper                   | £110
+Change of company name                         | Digital                 | £20
+Change of company name (same day)              | Digital                 | £85
+Registration of a charge (mortgage)            | Digital                 | £14
+Voluntary strike off (DS01)                    | Digital                 | £13
+Voluntary strike off (DS01)                    | Paper                   | £18
+Administrative restoration                     | Paper                   | £341
+Certificate of incorporation                   | By post                 | £22
+Certificate of incorporation (same day)        | By post                 | £65
+Apply to remove personal details from register | Paper (per transaction) | £34
+
+Incorporation requires a registered office in the UK, at least one director
+(identity-verified with Companies House before they can act), a memorandum and
+articles, and a statement of capital. Confirmation statement (CS01) every 12
+months, accounts 9 months after the accounting reference date for private
+companies, Corporation Tax registration within 3 months of becoming liable,
+self-assessment for directors, VAT above the taxable-supply threshold. Late
+filing penalties escalate automatically and striking off is available when the
+company is dormant.
+
+3. Global formation — 25 jurisdictions
+--------------------------------------
+
+Country                | Registry                                                  | Entity types                                                                                                   | Cheapest formation     | Cheapest annual      | Non-resident status
+---------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------- | -------------------- | --------------------------------
+China                  | SAMR (market regulation) + MOFCOM / NDRC                  | WFOE (Wholly Foreign-Owned Enterprise) / Sino-Foreign Equity Joint Venture                                     | no registry fee        | no registry fee      | Capital or Sector Gated
+Nigeria                | CAC (Corporate Affairs Commission)                        | Private Limited Company (Ltd) / Business Name (Sole Proprietorship)                                            | NGN 10,500 (≈ $6.87)   | no registry fee      | Open with a Local Agent/Director
+South Africa           | CIPC                                                      | Private Company (Pty Ltd) / External Company (Branch)                                                          | ZAR 175 (≈ $9.99)      | no registry fee      | Open with a Local Agent/Director
+India                  | MCA (SPICe+ on MCA V3)                                    | Private Limited Company (SPICe+) / Limited Liability Partnership (LLP)                                         | ₹1,000 (≈ $11.4)       | no registry fee      | Open with a Local Agent/Director
+Pakistan               | SECP (eZfile / LEAP) + FBR                                | Private Limited Company (Pvt Ltd) / Single Member Company (SMC) / Branch / Liaison Office of a Foreign Company | PKR 7,755 (≈ $27.69)   | no registry fee      | Fully Open to Non-Residents
+United States          | State Secretary of State + IRS                            | Limited Liability Company (LLC) / C Corporation (Delaware)                                                     | $50.00 (≈ $50)         | no registry fee      | Fully Open to Non-Residents
+Russia                 | Federal Tax Service (EGRUL)                               | Limited Liability Company (OOO) / Branch / Representative Office                                               | RUB 4,000 (≈ $50)      | no registry fee      | Capital or Sector Gated
+Ireland                | Companies Registration Office (CORE)                      | Private Company Limited by Shares (LTD) / Designated Activity Company (DAC)                                    | €50.00 (≈ $58)         | €20.00 (≈ $23.2)     | Open with a Local Agent/Director
+Kenya                  | Business Registration Service (eCitizen)                  | Private Limited Company (Ltd) / Branch of a Foreign Company                                                    | KES 10,650 (≈ $82.54)  | no registry fee      | Fully Open to Non-Residents
+Cyprus                 | Department of Registrar of Companies                      | Private Company Limited by Shares / Branch of an Overseas Company                                              | €105 (≈ $122)          | no registry fee      | Fully Open to Non-Residents
+United Kingdom         | Companies House + HMRC                                    | Private Limited Company (LTD) / Limited Liability Partnership (LLP)                                            | £100 (≈ $134)          | £50.00 (≈ $67)       | Fully Open to Non-Residents
+Qatar                  | Ministry of Commerce and Industry (MOCI)                  | Limited Liability Company (WLL) / QFC-Registered Company                                                       | QAR 500 (≈ $137)       | QAR 1,000 (≈ $275)   | Open with a Local Agent/Director
+Canada                 | Corporations Canada or provincial registry                | Federal Corporation (CBCA) / Ontario Corporation (OBCA)                                                        | CA$200 (≈ $145)        | CA$12.00 (≈ $8.7)    | Open with a Local Agent/Director
+Hong Kong              | Companies Registry + Inland Revenue (BRC)                 | Private Company Limited by Shares / Non-Hong-Kong Company (Registered Branch)                                  | HK$1,400 (≈ $179)      | HK$105 (≈ $13.46)    | Fully Open to Non-Residents
+Indonesia              | AHU (Ministry of Law) + BKPM / OSS-RBA                    | PT PMA (Foreign-Owned Company) / Representative Office (KPPA)                                                  | IDR 3,000,000 (≈ $182) | no registry fee      | Capital or Sector Gated
+Singapore              | ACRA (BizFile+)                                           | Private Limited Company (Pte Ltd) / Branch of a Foreign Company                                                | SGD 315 (≈ $244)       | SGD 60.00 (≈ $46.5)  | Open with a Local Agent/Director
+Malaysia               | SSM (Companies Commission of Malaysia)                    | Sendirian Berhad (Sdn Bhd) / Branch of a Foreign Company                                                       | MYR 1,050 (≈ $250)     | no registry fee      | Open with a Local Agent/Director
+Turkey                 | Trade Registry Office (MERSIS)                            | Limited Şirket (LLC) / Anonim Şirket (JSC)                                                                     | TRY 12,500 (≈ $298)    | no registry fee      | Open with a Local Agent/Director
+Panama                 | Registro Público (Mercantile Registry)                    | Sociedad Anónima (S.A.) / Private Interest Foundation                                                          | $300 (≈ $300)          | $300 (≈ $300)        | Fully Open to Non-Residents
+Estonia                | e-Business Register                                       | Private Limited Company (OÜ) / Branch of a Foreign Company                                                     | €265 (≈ $307)          | no registry fee      | Fully Open to Non-Residents
+Australia              | ASIC                                                      | Proprietary Limited Company (Pty Ltd) / Foreign Company Branch (ARBN)                                          | A$636 (≈ $418)         | A$342 (≈ $225)       | Open with a Local Agent/Director
+Germany                | Handelsregister (local court) via notary                  | GmbH (Limited Liability Company) / UG (haftungsbeschränkt)                                                     | €375 (≈ $435)          | no registry fee      | Open with a Local Agent/Director
+British Virgin Islands | BVI Financial Services Commission                         | BVI Business Company (BC) / Segregated Portfolio Company (SPC)                                                 | $450 (≈ $450)          | $450 (≈ $450)        | Fully Open to Non-Residents
+Saudi Arabia           | Ministry of Investment (MISA) + Ministry of Commerce (CR) | Foreign-Owned LLC (MISA + CR) / Branch of a Foreign Company                                                    | SAR 2,000 (≈ $533)     | SAR 1,200 (≈ $320)   | Capital or Sector Gated
+United Arab Emirates   | DET / DED (Dubai) and free-zone authorities               | Mainland LLC (DET Dubai) / Free-Zone Company (RAKEZ / IFZA / DMCC / SHAMS)                                     | AED 5,500 (≈ $1,498)   | AED 6,000 (≈ $1,634) | Open with a Local Agent/Director
+
+4. Licensing eligibility for 21 regulated businesses
+----------------------------------------------------
+Verdicts are per legal status: NON-RES ALIEN (individual abroad, foreign
+passport, no local work authorisation), FOREIGN COMPANY (the trading company is
+incorporated abroad with no local branch), LOCAL ENTITY (a company you
+incorporate in the market itself). WORKAROUND is the structure the site proposes
+when the direct route is blocked. ELIGIBLE = can be held as-is, CONDITIONAL =
+possible with a bond, sponsor, local officer or extra capital, BLOCKED = a
+citizenship, residency or SSN statute forbids it.
+
+Licence                                                  | Market                             | Regulator                                                         | Declared fee                                                                                        | Non-res alien | Foreign company | Local entity | Workaround
+-------------------------------------------------------- | ---------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------- | --------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Authorised Corporate Service Provider (ACSP)             | United Kingdom                     | Companies House                                                   | £63 digital registration fee (rose from £55 on 1 Feb 2026)                                          | CONDITIONAL   | BLOCKED         | ELIGIBLE     | Own the UK LTD from abroad, but staff the compliance function in the UK. A non-resident sole trader cannot register. Pair this with the £100 incorporation service and ID verification for a legitimate formation business.
+Business Setup Consultancy / Corporate Services Provider | United Arab Emirates               | DET (Dubai) or the relevant free-zone authority                   | Trade licence from ~AED 5,750 (DET, activity-dependent) or a free-zone package from AED 5,500–6,000 | CONDITIONAL   | CONDITIONAL     | ELIGIBLE     | You can run the consultancy from abroad only after a UAE entity and residence visa are in place; the licence is territorial. Alternatively act as a referral partner for a licensed UAE setup firm while you build the local presence.
+E-commerce / Amazon FBA / Dropshipping seller            | Global (US / UK / EU marketplaces) | Marketplace + tax authorities (no professional licence)           | $0 — no licence fee; you register for tax and comply with product rules                             | ELIGIBLE      | ELIGIBLE        | ELIGIBLE     | Fully remote by design. The main risk is tax nexus: holding inventory in a country creates registration duties there, even with a foreign-owned entity.
+FCA-authorised Payment Institution / EMI                 | United Kingdom                     | Financial Conduct Authority (FCA)                                 | FCA application fees per the published fee schedule (SPI is the cheapest tier)                      | CONDITIONAL   | BLOCKED         | CONDITIONAL  | If you are not ready for authorisation, operate as a registered agent/distributor of an already-authorised firm, or use an EMI partner with a programme-manager arrangement.
+Freight Broker (property broker authority)               | United States                      | Federal Motor Carrier Safety Administration (FMCSA)               | $300 FMCSA registration fee (non-refundable)                                                        | CONDITIONAL   | CONDITIONAL     | ELIGIBLE     | A Pakistan-based founder can legitimately own and run this remotely: the authority sits with the US LLC, the bond is posted by a US surety, and a BOC-3 agent receives service. Build a US-facing phone/bank presence before signing shippers.
+Insurance Producer (agent/broker)                        | United States                      | State departments of insurance via NIPR                           | State application fees typically $40–$200 per line (varies by state)                                | BLOCKED       | BLOCKED         | CONDITIONAL  | Not realistically available to a non-resident. If you are targeting insurance-adjacent income, consider claims documentation, lead generation for licensed agencies, or a back-office service agreement — all of which avoid holding the licence.
+IRS Certifying Acceptance Agent (ITIN services)          | United States                      | Internal Revenue Service (IRS)                                    | $0 — the IRS charges no application or maintenance fee                                              | CONDITIONAL   | CONDITIONAL     | CONDITIONAL  | Three routes, in order of realism. (1) Apply directly as a foreign person: file electronically, enter N/A for the SSN/ITIN line, attach training certificates and passport/identity documentation — expect scrutiny and have a US tax-compliance record. (2) Form a US LLC and appoint a US citizen or LPR as the Responsible Party while you run operations from abroad; this is what most cross-border firms do. (3) Trade as a non-CAA document-preparation service — lawful, but you cannot certify identity or issue Form W-7 (COA). Never advertise CAA status you do not hold.
+IT / IT-enabled services exporter (PSEB registered)      | Pakistan                           | Pakistan Software Export Board (PSEB) + FBR                       | PSEB company registration is free for most company categories                                       | CONDITIONAL   | CONDITIONAL     | ELIGIBLE     | This is the home-market play for a Pakistani founder: register locally, invoice foreign clients, and use a US LLC only if you need dollar banking or marketplace access.
+Licensed Customs Broker                                  | United States                      | US Customs and Border Protection (CBP)                            | $390 exam fee + $200 licence application fee                                                        | BLOCKED       | BLOCKED         | CONDITIONAL  | You cannot hold the licence yourself. To run a customs brokerage commercially, own a US corporation and hire/partner with a licensed broker as the qualifying officer — or white-label an existing licensed broker and focus on the freight-forwarding and sales side (which needs no CBP licence).
+Money Services Business / Money Transmitter              | United States                      | FinCEN + state banking departments (NMLS)                         | $0 for FinCEN Form 107 registration; state MTL application fees $500–$5,000 per state               | CONDITIONAL   | CONDITIONAL     | CONDITIONAL  | Do not start here. The realistic non-resident fintech route is to partner with a licensed BaaS provider or money transmitter under a programme-management agreement — your entity becomes a technology provider, not the licensee.
+Mortgage Loan Originator (SAFE Act)                      | United States                      | NMLS / state regulators (CFPB SAFE Act)                           | NMLS registration + state licence fees (state-dependent, commonly $100–$500)                        | BLOCKED       | BLOCKED         | CONDITIONAL  | Not available to non-residents. Adjacent work: mortgage processing support or lead generation for licensed lenders.
+Notary Public (state commission)                         | United States                      | State secretary of state / governor’s office                      | State application fee typically $20–$100 (varies by state); some states add an exam fee             | BLOCKED       | BLOCKED         | BLOCKED      | Remote online notarisation (RON) still requires a commission in the state where the signer or the notary is located. Non-residents should use a US-commissioned RON provider instead of seeking a commission.
+Real Estate Broker (RERA / DLD)                          | United Arab Emirates               | Real Estate Regulatory Agency (RERA) / Dubai Land Department      | RERA registration and card fees per DLD schedule; brokerage licence separate                        | CONDITIONAL   | CONDITIONAL     | CONDITIONAL  | Not available without residency. Overseas investors typically use a RERA-registered broker and a power of attorney rather than becoming licensed themselves.
+Real Estate Sales Associate (state licence)              | United States                      | State real estate commission (e.g. Florida DBPR / TREC in Texas)  | Florida DBPR application ~$62.75 + Pearson VUE exam $36.75 (Texas and other states differ)          | BLOCKED       | BLOCKED         | CONDITIONAL  | If you want US real estate exposure without an SSN, the realistic routes are: (a) own US rental property through your LLC and use a licensed property manager; (b) work as a referral/marketing partner paid by a licensed brokerage (check state rules on unlicensed referral fees); or (c) obtain an ITIN/SSN through a qualifying status first.
+Registered Agent / company formation service             | United States                      | State Secretary of State (no standalone licence in most states)   | $0 — registered agents are not licensed, only required to have a physical in-state address          | CONDITIONAL   | CONDITIONAL     | ELIGIBLE     | A non-resident can own the business but not personally act as agent. Partner with a US-based co-founder or use a fulfilment partner for the address; sell the marketing/compliance layer from abroad.
+Registered Filing Agent (company formation)              | Singapore                          | ACRA                                                              | ACRA RFA registration (no separate licence fee published for the basic registration)                | CONDITIONAL   | BLOCKED         | ELIGIBLE     | Own it from abroad, but the resident director and RFA applicant must be in Singapore. Budget for a genuine resident partner, not a paper nominee.
+Registered Migration Agent (MARA)                        | Australia                          | Office of the Migration Agents Registration Authority (OMARA)     | OMARA registration fee per the current schedule (annual renewal)                                    | BLOCKED       | BLOCKED         | CONDITIONAL  | Not available overseas. The lawful adjacent role is document preparation and client coordination under a registered agent.
+Regulated Canadian Immigration Consultant (RCIC)         | Canada                             | College of Immigration and Citizenship Consultants (CICC)         | CICC application and annual fees per the College schedule; the graduate diploma is the real cost    | BLOCKED       | BLOCKED         | CONDITIONAL  | Not available abroad. If you are outside Canada, work as a document-collection assistant to an RCIC — never give immigration advice, which is a criminal offence in Canada when unlicensed.
+Software / SaaS / IT services agency                     | Global (US / UK / EU clients)      | None for the service itself — tax and data-protection rules apply | $0 — no professional licence                                                                        | ELIGIBLE      | ELIGIBLE        | ELIGIBLE     | Fully remote. This is the lowest-friction category on the site and the best first step before adding licensed activities.
+Tax return preparer (PTIN holder)                        | United States                      | IRS                                                               | $0–$20 depending on the cycle; the IRS has waived its user fee, processors may charge               | CONDITIONAL   | CONDITIONAL     | ELIGIBLE     | This is one of the few US tax credentials genuinely open to a non-resident — but the ITIN is the gate. Start with W-7 document preparation for your home-market clients, then add a PTIN and EFIN once your own ITIN is issued.
+Trust or Company Service Provider (TCSP)                 | Hong Kong                          | Companies Registry (TCSP Licensing)                               | TCSP licence application and annual fees per the Companies Registry schedule                        | CONDITIONAL   | CONDITIONAL     | ELIGIBLE     | Not workable without Hong Kong premises and staff. Non-resident founders typically partner with an existing TCSP for filings instead of licensing their own.
+
+5. Sourcing rules
+-----------------
+- Government fee only in the fee columns; market costs (registered agent,
+  nominee director, bond, audit, translation, training) are listed separately in
+  the UI and never added into a headline number.
+- Every country and licence entry carries its regulator's own link.
+- Indicative FX used only for the USD comparison column.
+- General information, not legal, tax or accounting advice.

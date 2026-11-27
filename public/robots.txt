@@ -1,4 +1,64 @@
+# Global Incorporation Free Advisor
+# https://globalincorporationfreeadvisor.goshbuzz.com/
+#
+# Advertising scripts (Adsterra: bauval.org, abscloud.org, araplhn.org) are
+# deliberately NOT blocked. Serving ads to users while blocking the same
+# resources for Googlebot is treated as cloaking, so the crawler sees the page
+# exactly as a visitor does.
+
 User-agent: *
+Allow: /
+
+# Brand assets stay openly fetchable: Google picks the search-result site icon
+# by downloading the favicon itself, and its image crawler indexes the logo from
+# the structured data. A 403 on any of these silently drops the icon and the
+# logo-rich-result eligibility.
+Allow: /favicon.svg
+Allow: /favicon.ico
+Allow: /favicon-16x16.png
+Allow: /favicon-32x32.png
+Allow: /favicon-48x48.png
+Allow: /apple-touch-icon.png
+Allow: /icon-192.png
+Allow: /icon-512.png
+Allow: /maskable-icon-512.png
+Allow: /logo.svg
+Allow: /logo.png
+Allow: /logo-wide.png
+Allow: /og-image.png
+Allow: /site.webmanifest
+
+# Answer engines are explicitly welcome. /llms.txt and /llms-full.txt carry the
+# same verified fee data the UI renders, plus the source links, so a citation
+# does not have to scrape the React app.
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
 Allow: /
 
 Sitemap: https://globalincorporationfreeadvisor.goshbuzz.com/sitemap.xml

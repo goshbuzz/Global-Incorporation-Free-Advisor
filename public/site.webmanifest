@@ -1,0 +1,77 @@
+{
+  "name": "Global Incorporation Free Advisor",
+  "short_name": "Global Inc.",
+  "description": "Free self-filing advisors for cross-border founders: 50-state US LLC fees, UK LTD (Companies House + HMRC), a 25-country formation database and a non-resident business licensing eligibility explorer.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en",
+  "dir": "auto",
+  "background_color": "#0f172a",
+  "theme_color": "#4338ca",
+  "categories": ["business", "finance", "productivity", "education"],
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "US LLC Advisor",
+      "short_name": "US LLC",
+      "description": "50-state formation fees, EIN, ITIN and Form 5472 for foreign owners.",
+      "url": "/#llc",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "UK LTD Advisor",
+      "short_name": "UK LTD",
+      "description": "Companies House incorporation, confirmation statement, CT600 and VAT.",
+      "url": "/#ltd",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Global Formation Advisor",
+      "short_name": "25 countries",
+      "description": "Declared registry formation fees and processes in 25 jurisdictions.",
+      "url": "/#global",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Business Licensing Explorer",
+      "short_name": "Licensing",
+      "description": "Can a non-resident alien or foreign-owned company hold this licence?",
+      "url": "/#license",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

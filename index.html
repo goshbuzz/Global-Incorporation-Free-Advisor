@@ -5,38 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Global Incorporation Free Advisor — Company Formation &amp; Business Licensing (US, UK, UAE, Pakistan, India, Singapore)</title>
     <meta name="description" content="Global Incorporation Free Advisor is a free non-resident advisor: compare company formation fees and processes in 25 countries (US, UK, UAE, Saudi Arabia, Pakistan, India, China, Singapore, Canada and more), plus a licensing explorer that shows whether an alien or foreign-owned company can legally run professions such as IRS acceptance agent, customs broker, freight broker or real estate agent." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
     <link rel="canonical" href="https://globalincorporationfreeadvisor.goshbuzz.com/" />
     <meta name="theme-color" content="#4338ca" />
     <meta name="application-name" content="Global Incorporation" />
+    <meta name="apple-mobile-web-app-title" content="Global Incorporation" />
+
+    <!--
+      Logo / icon chain. One brand mark, declared in every format a client asks
+      for: SVG (browsers that support SVG favicons, plus crawlers and LLM
+      fetchers), PNG at each size Google renders, a legacy .ico fallback, an
+      Apple touch icon, and PWA + maskable icons from /site.webmanifest. Google
+      takes the search-result site icon from these declarations, so every file
+      is a square raster, is served from the origin, and is explicitly allowed
+      in public/robots.txt. Re-run `npm run icons` after editing brand/.
+    -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <!-- Speed up the Adsterra request chain. -->
-    <link rel="preconnect" href="https://thatlobster.com" crossorigin />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- The logo itself, for clients that look for a brand image outside the schema. -->
+    <link rel="logo" type="image/png" href="/logo.png" />
+    <link rel="logo" type="image/svg+xml" href="/logo.svg" />
+    <!-- Plain-text site summary written for LLM crawlers (also /llms-full.txt). -->
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="Global Incorporation Free Advisor — llms.txt" />
+
+    <!--
+      Google Search Console. Paste the property token here after adding
+      https://globalincorporationfreeadvisor.goshbuzz.com/ as a Domain or URL
+      prefix property, then verify. Keep exactly one verification method —
+      a second one (DNS or Analytics) is redundant and can confuse re-verification.
+    <meta name="google-site-verification" content="PASTE-YOUR-GSC-TOKEN" />
+    -->
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Global Incorporation" />
     <meta property="og:title" content="Global Incorporation Free Advisor — Company Formation &amp; Business Licensing" />
     <meta property="og:description" content="Global Incorporation Free Advisor: company formation fees in 25 countries plus a licence-by-licence eligibility check for non-resident aliens and foreign-owned companies." />
     <meta property="og:url" content="https://globalincorporationfreeadvisor.goshbuzz.com/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://globalincorporationfreeadvisor.goshbuzz.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Global Incorporation Free Advisor — form the company yourself, then check what you may legally run. Summary card listing 50 US states, 25 countries and the licensing eligibility explorer." />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Global Incorporation Free Advisor — Company Formation &amp; Business Licensing" />
     <meta name="twitter:description" content="Global Incorporation Free Advisor: a 25-country formation fee database plus a non-resident licensing eligibility explorer." />
+    <meta name="twitter:image" content="https://globalincorporationfreeadvisor.goshbuzz.com/og-image.png" />
+    <meta name="twitter:image:alt" content="Global Incorporation Free Advisor link card: the brand globe logo and the 50-state / 25-country / 20-licence coverage summary." />
+    <!-- Absolute icon URL for clients that resolve the favicon outside the document. -->
+    <link rel="fluid-icon" href="https://globalincorporationfreeadvisor.goshbuzz.com/logo.png" title="Global Incorporation Free Advisor" />
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Global Incorporation Free Advisor",
-      "alternateName": ["Global Incorporation", "Global Incorporation Advisor"],
-      "url": "https://globalincorporationfreeadvisor.goshbuzz.com/",
-      "description": "Free advisor comparing company formation fees and processes in 25 countries, plus a non-resident business licensing eligibility explorer covering acceptance agents, brokers and licensed professions.",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "publisher": { "@type": "Organization", "name": "GoshBuzz", "url": "https://goshbuzz.com/" }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#organization",
+          "name": "GoshBuzz",
+          "alternateName": "Global Incorporation",
+          "url": "https://goshbuzz.com/",
+          "logo": [
+            {
+              "@type": "ImageObject",
+              "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#logo",
+              "url": "https://globalincorporationfreeadvisor.goshbuzz.com/logo.png",
+              "contentUrl": "https://globalincorporationfreeadvisor.goshbuzz.com/logo.png",
+              "width": 600,
+              "height": 600,
+              "caption": "Global Incorporation logo: a gradient globe on a dark rounded tile",
+              "inLanguage": "en"
+            },
+            {
+              "@type": "ImageObject",
+              "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#logo-wide",
+              "url": "https://globalincorporationfreeadvisor.goshbuzz.com/logo-wide.png",
+              "contentUrl": "https://globalincorporationfreeadvisor.goshbuzz.com/logo-wide.png",
+              "width": 1200,
+              "height": 300,
+              "caption": "Global Incorporation Free Advisor horizontal logo lockup",
+              "inLanguage": "en"
+            }
+          ],
+          "sameAs": ["https://goshbuzz.com/"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#website",
+          "url": "https://globalincorporationfreeadvisor.goshbuzz.com/",
+          "name": "Global Incorporation Free Advisor",
+          "alternateName": ["Global Incorporation", "Global Incorporation Advisor"],
+          "description": "Free self-filing advisors for cross-border founders: 50-state US LLC fees, UK LTD formation, a 25-country registry fee database and a non-resident business licensing eligibility explorer.",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#organization" },
+          "image": "https://globalincorporationfreeadvisor.goshbuzz.com/og-image.png",
+          "thumbnailUrl": "https://globalincorporationfreeadvisor.goshbuzz.com/logo.png"
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#app",
+          "name": "Global Incorporation Free Advisor",
+          "alternateName": ["Global Incorporation", "Global Incorporation Advisor"],
+          "url": "https://globalincorporationfreeadvisor.goshbuzz.com/",
+          "description": "Free advisor comparing company formation fees and processes in 25 countries, plus a non-resident business licensing eligibility explorer covering acceptance agents, brokers and licensed professions.",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Any",
+          "inLanguage": "en",
+          "image": [
+            "https://globalincorporationfreeadvisor.goshbuzz.com/og-image.png",
+            "https://globalincorporationfreeadvisor.goshbuzz.com/logo.png"
+          ],
+          "logo": "https://globalincorporationfreeadvisor.goshbuzz.com/logo.png",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+          "publisher": { "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#organization" },
+          "isPartOf": { "@id": "https://globalincorporationfreeadvisor.goshbuzz.com/#website" },
+          "hasPart": [
+            { "@type": "WebPage", "name": "US LLC Advisor", "url": "https://globalincorporationfreeadvisor.goshbuzz.com/#llc" },
+            { "@type": "WebPage", "name": "UK LTD Advisor", "url": "https://globalincorporationfreeadvisor.goshbuzz.com/#ltd" },
+            { "@type": "WebPage", "name": "Global Formation Advisor", "url": "https://globalincorporationfreeadvisor.goshbuzz.com/#global" },
+            { "@type": "WebPage", "name": "Business Licensing Explorer", "url": "https://globalincorporationfreeadvisor.goshbuzz.com/#license" }
+          ]
+        }
+      ]
     }
     </script>
+    <!-- Low-priority DNS hints for the Adsterra hosts; the tags themselves load
+         after the window is already finished, so they never compete with the page. -->
+    <link rel="dns-prefetch" href="//bauval.org" />
+    <link rel="dns-prefetch" href="//abscloud.org" />
+    <link rel="dns-prefetch" href="//araplhn.org" />
   </head>
   <body>
     <div id="root">
@@ -150,12 +252,12 @@
     </div>
     <script type="module" src="/src/main.tsx"></script>
 
-    <!-- Adsterra social bar. The container lives outside #root so React never replaces it. -->
-    <div id="container-d3d5110fc257053ff30b6ce9ef25c62b"></div>
-    <script async="async" data-cfasync="false" src="https://thatlobster.com/d3d5110fc257053ff30b6ce9ef25c62b/invoke.js"></script>
-
-    <!-- Adsterra site-wide scripts (pop-under / in-page formats). -->
-    <script data-cfasync="false" src="https://thatlobster.com/53/e1/97/53e197d97d595ab9de8bbf6758c8957b.js"></script>
-    <script data-cfasync="false" src="https://thatlobster.com/21/2f/3f/212f3ff463cbc38278f7f7b308be920d.js"></script>
+    <!--
+      Adsterra site-wide formats (social bar, in-page push, popunder) are not
+      listed here on purpose: they are injected by
+      src/components/ads/AdsterraOverlays.tsx once the window has loaded and the
+      visitor has engaged with the page. Keeping them out of the raw HTML protects
+      LCP/INP and guarantees exactly one request per format per page view.
+    -->
   </body>
 </html>

@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+  The four advisors are hash routes in a single document, so they share one
+  indexable URL: /#llc, /#ltd, /#global and /#license are anchors of
+  https://globalincorporationfreeadvisor.goshbuzz.com/ and must not be listed as
+  separate <loc> entries (Google ignores fragments and duplicate URLs dilute
+  the crawl budget). Images are declared here so the logo and the link card are
+  discovered by Google Images next to the page they describe.
+-->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
   <url>
     <loc>https://globalincorporationfreeadvisor.goshbuzz.com/</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://globalincorporationfreeadvisor.goshbuzz.com/logo.png</image:loc>
+      <image:title>Global Incorporation Free Advisor logo</image:title>
+      <image:caption>Brand logo: a gradient indigo-to-emerald globe on a dark rounded tile, used as the site icon and publisher mark.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://globalincorporationfreeadvisor.goshbuzz.com/logo-wide.png</image:loc>
+      <image:title>Global Incorporation Free Advisor horizontal logo lockup</image:title>
+      <image:caption>Globe mark beside the Global Incorporation Free Advisor wordmark, 1200 by 300 pixels.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://globalincorporationfreeadvisor.goshbuzz.com/og-image.png</image:loc>
+      <image:title>Global Incorporation Free Advisor — company formation and licensing</image:title>
+      <image:caption>Link card summarising 50 US states, 25 countries and per-licence eligibility for non-resident founders.</image:caption>
+    </image:image>
   </url>
 </urlset>

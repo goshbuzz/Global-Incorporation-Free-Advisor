@@ -1,14 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Global Incorporation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Global Incorporation">
   <defs>
-    <linearGradient id="giGlobe" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6366f1" />
-      <stop offset="55%" stop-color="#4338ca" />
-      <stop offset="100%" stop-color="#059669" />
+    <linearGradient id="giGlobeBold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="55%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#10b981" />
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="15" fill="#0f172a" />
-  <circle cx="32" cy="32" r="17.5" fill="none" stroke="url(#giGlobe)" stroke-width="3.5" />
-  <ellipse cx="32" cy="32" rx="8" ry="17.5" fill="none" stroke="url(#giGlobe)" stroke-width="2.75" />
-  <path d="M14.5 32h35" stroke="url(#giGlobe)" stroke-width="2.75" stroke-linecap="round" />
-  <path d="M18 22.5h28M18 41.5h28" stroke="url(#giGlobe)" stroke-width="2.25" stroke-linecap="round" opacity=".65" />
+  <!--
+    Optical variant for the 16–64 px renditions (and favicon.ico). The mark is
+    enlarged and the hairline latitude rows are dropped, because at 16 px a 20
+    unit stroke falls below one device pixel and turns to mush.
+  -->
+  <rect width="512" height="512" rx="112" fill="#0f172a" />
+  <circle cx="256" cy="256" r="152" fill="none" stroke="url(#giGlobeBold)" stroke-width="52" />
+  <ellipse cx="256" cy="256" rx="72" ry="152" fill="none" stroke="url(#giGlobeBold)" stroke-width="40" />
+  <path d="M104 256h304" stroke="url(#giGlobeBold)" stroke-width="40" stroke-linecap="round" />
 </svg>
